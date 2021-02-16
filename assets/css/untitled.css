@@ -78,3 +78,9 @@
   color: #3b99e0;
 }
 
+@media (max-width: 768px) {
+  .clean-navbar .logo {
+    font-size: 1.25rem;
+  }
+}
+
