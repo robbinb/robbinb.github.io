@@ -1,0 +1,80 @@
+.nopad {
+  padding: 0px;
+}
+
+.dropdown-menu {
+  border: 0px solid rgba(0,0,0,.15);
+}
+
+.dropdown-item {
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: 600!important;
+}
+
+.dropdown-menu a:link {
+  color: rgba(0,0,0,0.5);
+}
+
+.dropdown-menu a:hover {
+  color: rgba(0,0,0,0.7);
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block!important;
+}
+
+.page-footer.dark {
+  color: grey;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+.clean-block.map {
+  padding: 0px;
+}
+
+.clean-block.clean-info {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.clean-block.clean-warning {
+  position: relative;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 0px;
+  padding-top: 25px;
+}
+
+.clean-block.clean-warning h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.clean-block.clean-warning p {
+  color: white;
+}
+
+@media (min-width:576px) {
+  .clean-block.clean-warning {
+    min-height: 120px;
+  }
+}
+
+.feature-box .bild {
+  width: 50px;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  text-align: center;
+  color: #3b99e0;
+}
+
