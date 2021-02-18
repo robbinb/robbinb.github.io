@@ -27,6 +27,12 @@
 .page-footer.dark {
   color: grey;
   padding: 50px;
+  background-color: #f6f6f6;
+}
+
+.page-footer.white {
+  color: grey;
+  padding: 50px;
   background-color: #ffffff;
 }
 
@@ -60,6 +66,10 @@
 }
 
 .clean-block.clean-warning p {
+  color: white;
+}
+
+.clean-block.clean-warning a {
   color: white;
 }
 
@@ -107,5 +117,13 @@
   background-clip: border-box;
   border: 0px solid rgba(0,0,0,.125);
   border-radius: .15rem;
+}
+
+textarea.contact-us {
+  height: 300px;
+}
+
+.text-info.warning {
+  color: #ff9933 !important;
 }
 
