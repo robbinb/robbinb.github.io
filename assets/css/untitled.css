@@ -20,6 +20,23 @@
   color: rgba(0,0,0,0.7);
 }
 
+.btn {
+  border-radius: 30px;
+  padding: 15px 20px 15px 20px;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+.btn-light {
+  background-color: white;
+  color: #3b99e0;
+}
+
+.btn-light:hover {
+  background-color: white;
+  color: #007bff;
+}
+
 .nav-item:hover .dropdown-menu {
   display: block!important;
 }
@@ -36,8 +53,21 @@
   background-color: #ffffff;
 }
 
+.clean-block.clean-hero {
+  text-align: left;
+}
+
+.clean-block.clean-hero h2 {
+  font-weight: 600;
+}
+
+.clean-block.clean-hero .text {
+  margin-top: 50px;
+}
+
 .clean-block.map {
   padding: 0px;
+  word-spacing: 0px;
 }
 
 .clean-block.clean-info {
@@ -77,6 +107,10 @@
   .clean-block.clean-warning {
     min-height: 120px;
   }
+}
+
+.text {
+  text-shadow: none !important;
 }
 
 .feature-box .bild {
@@ -125,5 +159,207 @@ textarea.contact-us {
 
 .text-info.warning {
   color: #ff9933 !important;
+}
+
+.clean-block .block-heading.mid-block {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.mini-submenu {
+  display: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px solid rgba(0, 0, 0, 0.9);
+  border-radius: 0px;
+  padding: 9px;
+  width: 42px;
+}
+
+.mini-submenu:hover {
+  cursor: pointer;
+}
+
+.mini-submenu .icon-bar {
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin-top: 3px;
+}
+
+.mini-submenu .icon-bar {
+  background-color: #000;
+}
+
+#slide-submenu {
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sidebar {
+  border: 0px;
+}
+
+.list-group {
+  border: 0px;
+}
+
+.list-group-item.child-page a {
+  border: 0px;
+  color: white;
+}
+
+/* POPUP */
+
+.st-actionContainer {
+  z-index: 9999;
+  position: fixed;
+  display: inline-block;
+}
+
+.right-bottom {
+  bottom: 2em;
+  right: 2em;
+  float: right !important;
+}
+
+.left-bottom {
+  bottom: 2em;
+  left: 2em;
+  float: left !important;
+}
+
+div.st-actionContainer li {
+  list-style: none;
+}
+
+.st-panel {
+  width: auto;
+  margin-bottom: 10%;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 25px;
+  display: none;
+  text-align: center;
+}
+
+.st-panel .btn {
+  width: 100%;
+  margin: 10px 0 10px;
+}
+
+div.st-panel {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.st-panel-header {
+  background-color: white;
+  color: black;
+  padding: 3px;
+}
+
+.st-panel-contents {
+  padding: 20px;
+}
+
+.st-button-main {
+  font-size: 24px;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.st-button-main > i {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.st-btn-container {
+  background-image: linear-gradient(40deg, rgba(0,123,255,1) 0%, rgba(0,212,255,1) 100%);
+  background-size: 200% auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transition: 0.7s all;
+  -webkit-transition: 0.7s all;
+  margin-top: 14px;
+  display: inline-block;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.st-btn-container:hover {
+  background-position: right center;
+}
+
+.rotateForward {
+  animation-name: rotateF;
+  animation-duration: 0.65s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotateF {
+  from {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.rotateBackward {
+  animation-name: rotateB;
+  animation-duration: 0.65s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotateB {
+  from {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+/* option grid in panel */
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gridChild {
+  flex: 0 0 33.33%;
+  height: 50px;
+  background-color: #999;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+}
+
+.gridChild:hover {
+  background-color: #eee;
+  color: black;
 }
 
