@@ -214,8 +214,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/theme.js"></script>
-    <script src="assets/js/jsgo.js"></script>
     <script src="assets/js/st.action-panel.js"></script>
+    <script>
+    	$(document).ready(function(){
+    $('st-actionContainer').launchBtn( { openDuration: 500, closeDuration: 300 } );
+});
+    </script>
 </body>
 
 </html>
