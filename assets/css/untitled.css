@@ -37,6 +37,16 @@
   color: #007bff;
 }
 
+.btn-callme {
+  background-color: #78cc5a;
+  color: white;
+}
+
+.btn-callme:hover {
+  background-color: #99e897;
+  color: white;
+}
+
 .nav-item:hover .dropdown-menu {
   display: block!important;
 }
@@ -360,5 +370,37 @@ div.st-panel {
 .gridChild:hover {
   background-color: #eee;
   color: black;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  font-size: 0.9rem;
+  padding: 0px;
+}
+
+.table td, .table th {
+  padding: 1rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.list-group {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.list-group a {
+  color: rgba(0,0,0,0.5);
+}
+
+.list-group a:hover {
+  color: #212529;
+}
+
+a:hover {
+  text-decoration: none;
 }
 

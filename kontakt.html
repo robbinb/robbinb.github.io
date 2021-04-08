@@ -33,10 +33,10 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Hem</a></li>
                     <li class="nav-item"><a class="nav-link" href="omoss.html">OM OSS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="priser.html">PRISER</a></li>
                     <li class="nav-item dropdown"><a class="nav-link" aria-expanded="false" data-toggle="dropdown">Behandlingar</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="#">AKUT TANDVÅRD</a><a class="dropdown-item" href="#">Allmän tandvård</a><a class="dropdown-item" href="#">Implantat</a><a class="dropdown-item" href="#">Estetisk tandvård</a></div>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">AKUT TANDVÅRD</a><a class="dropdown-item" href="#">Allmän tandvård</a><a class="dropdown-item" href="#">FÖREBYGGANDE TANDVÅRD</a><a class="dropdown-item" href="#">Estetisk tandvård</a><a class="dropdown-item" href="#">KRONOR &amp; TANDINPLANTAT</a></div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="forpatienter.html">FÖR PATIENTER</a></li>
                     <li class="nav-item"><a class="nav-link" href="kontakt.html">KONTAKTA OSS</a></li>
                 </ul>
             </div>
@@ -52,15 +52,21 @@
         <section class="clean-block clean-form">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">Kontakta Oss</h2>
+                    <h2 class="text-info">Kom i kontakt med oss på Arvika Tandklinik</h2>
                     <p>Du är alltid välkommen att kontakta oss på Arvika Tandklinik. Ring oss på&nbsp;0570-137 79 eller använd formuläret nedan&nbsp;så återkommer vi till dig snarast möjligt!<br><br></p>
                 </div>
                 <form>
-                    <div class="form-group"><label>Ditt fullständiga namn (Obligatoriskt)<br></label><input class="form-control" type="text"></div>
-                    <div class="form-group"><label>Ditt telefonnummer (Obligatoriskt)</label><input class="form-control" type="email"></div>
-                    <div class="form-group"><label>Din epostadress (Obligatoriskt)</label><input class="form-control" type="email"></div>
-                    <div class="form-group"><label>Meddelande</label><textarea class="form-control contact-us"></textarea></div>
-                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Skicka</button></div>
+                    <div class="form-group has-error"><label for="form_name">Ditt fullständiga namn (Obligatoriskt)<br></label><input class="form-control" type="text" id="form_name" placeholder="Ange ditt fullständiga namn" required="required" data-error="Ett fullständigt namn krävs">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group"><label>Ditt telefonnummer (Obligatoriskt)</label><input class="form-control" type="number" placeholder="Ange ditt telefonnummer" required="required" data-error="Ett korrekt telefonnummer krävs">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group"><label for="form_email">Din epostadress (Obligatoriskt)</label><input class="form-control" type="email" id="form_email" placeholder="Ange din epostaddress" required="required" data-error="Var vänlig ange en korrekt epostaddress.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group"><label>Meddelande</label><textarea class="form-control contact-us" id="form_message" name="message" placeholder="Ange ett meddelande. Ej obligatoriskt." rows="4"></textarea></div>
+                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit">KONTAKTA MIG</button></div>
                 </form>
             </div>
         </section>
@@ -99,11 +105,11 @@
 <h4 class="text-center">Kontakta oss</h4>
             <div class="row no-gutters">
                 <div class="col-sm-12">
-                    <a class="btn btn-primary" role="button" href="bokatid.html"><i class="far fa-calendar-alt"></i>BOKA TID</a>
+                    <a class="btn btn-primary" role="button" href="bokatid.html"><i class="far fa-calendar-alt"></i> BOKA TID</a>
                 </div>
 
                 <div class="col-sm-12">
-                    <a class="btn btn-primary" role="button" href="tel:057013779"><i class="fa fa-phone"></i><strong>RING OSS</strong></a>
+                    <a class="btn btn-primary" role="button" href="tel:057013779"><i class="fa fa-phone"></i> RING OSS</a>
                 </div>
 
             </div>
