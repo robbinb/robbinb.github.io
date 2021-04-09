@@ -14,13 +14,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
@@ -60,15 +55,14 @@
                 <div class="row">
                     <div class="col">
                         <form>
-                            <div class="form-group has-error"><label for="form_name">Ditt fullständiga namn (Obligatoriskt)<br></label><input class="form-control" type="text" id="form_name" placeholder="Ange ditt fullständiga namn" required="required" data-error="Ett fullständigt namn krävs">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group"><label>Ditt telefonnummer (Obligatoriskt)</label><input class="form-control" type="number" placeholder="Ange ditt telefonnummer" required="required" data-error="Ett korrekt telefonnummer krävs">
+                            <div class="form-group"><label for="form_name">Ditt fullständiga namn (Obligatoriskt)<br></label><input class="form-control" type="text" id="form_name" placeholder="Ange ditt fullständiga namn" required="required" data-error="Ett fullständigt namn krävs"></div>
+                            <div class="form-group"><label for="form_number">Ditt telefonnummer (Obligatoriskt)</label><input class="form-control" type="number" placeholder="Ange ditt telefonnummer" required="required" data-error="Ett korrekt telefonnummer krävs">
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group"><label for="form_email">Din epostadress (Obligatoriskt)</label><input class="form-control" type="email" id="form_email" placeholder="Ange din epostaddress" required="required" data-error="Var vänlig ange en korrekt epostaddress.">
                                 <div class="help-block with-errors"></div>
                             </div>
+                            <div class="form-group"><label for="form_date">Önskad tid för bokning</label><input class="form-control" type="datetime-local" placeholder="Ange önskad tid för bokning"></div>
                             <div class="form-group"><label>Meddelande</label><textarea class="form-control contact-us" id="form_message" name="message" placeholder="Ange ett meddelande. Ej obligatoriskt." rows="4"></textarea></div>
                             <div class="form-group"><button class="btn btn-block btn-callme" type="submit">RING UPP MIG</button></div>
                         </form>
@@ -129,8 +123,6 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/theme.js"></script>
